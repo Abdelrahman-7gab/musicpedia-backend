@@ -7,9 +7,7 @@ const redisClient = Redis.createClient();
 const Expiration = 18000; // 5 hours
 
 const Genius = require("genius-lyrics");
-const lyricsClient = new Genius.Client();
-
-require("dotenv").config();
+const lyricsClient = new Genius.Client();;
 
 app.use(cors());
 
