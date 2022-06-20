@@ -1,0 +1,19 @@
+{
+  "name": "musicpedia-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "genius-lyrics": "^4.3.8",
+    "redis": "^4.1.0"
+  }
+}
